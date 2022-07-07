@@ -94,6 +94,7 @@ h1, h3{
 .link-sicredi{
     color: #2aa431;
     font-weight: bold;
+    font-size: 19px;
 }
 
 .div-foto-felipe{
@@ -143,6 +144,7 @@ h1, h3{
 
 .titulo-formacao{
     color: black;
+    font-size: 16px;
 }
 .hr-custom{
     width: 20%;
