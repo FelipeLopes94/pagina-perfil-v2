@@ -159,11 +159,10 @@ h1, h3{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 240px;
     background-image: linear-gradient(rgb(96 96 96 / 65%), rgb(163 163 163 / 22%)), url(../img/contact-bg.jpg);
     background-position: center top;
 	background-size:cover;
-    padding: 130px 0 54px 0;
+    padding: 58px 0 54px 0;
 
 }
 
@@ -246,3 +245,30 @@ h1, h3{
     font-family: 'Dancing Script', cursive;
     font-size: 22px;
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 610px) {
+    .elementos-sobre{
+        flex-direction: column;
+    }
+    .textos-sobre{
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .container-form{
+        width: 90%;
+    }
+
+    .input-campos-1{
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .input-1{
+        width: 100%;
+    }
+}
+
