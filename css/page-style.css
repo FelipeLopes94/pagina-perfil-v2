@@ -140,6 +140,7 @@ h1, h3{
 
 .info-formacoes{
     margin-top: 20px;
+    width: 80%;
 }
 
 .titulo-formacao{
@@ -148,4 +149,100 @@ h1, h3{
 }
 .hr-custom{
     width: 20%;
+}
+
+/* secao contato */
+
+.contato{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 240px;
+    background-image: linear-gradient(rgb(96 96 96 / 65%), rgb(163 163 163 / 22%)), url(../img/contact-bg.jpg);
+    background-position: center top;
+	background-size:cover;
+    padding: 130px 0 54px 0;
+
+}
+
+.container-elementos-contato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.titulo-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: 3px solid;
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+.container-form{
+    width: 65%;
+}
+
+.input-campos-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-campos-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input-1{
+    line-height: 1.5;
+    color: #bebebe;
+    background-color: #eaeaea;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(171 176 185);
+    background-color: rgb(120 120 120 / 78%);
+    background-image: none;
+}
+.input-1::placeholder {
+    color: white;
+}
+
+.input-2{
+    width: 100%;
+    line-height: 1.5;
+    color: #cacaca;
+    background-color: #eaeaea;
+    border: 1px solid #ced4da;
+    border-bottom: 4px solid rgb(171 176 185);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(120 120 120 / 78%);
+    background-image: none;
+}
+
+
+.input-2::placeholder {
+    color: white;
+}
+
+/* secao footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.nome-footer{
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
 }
