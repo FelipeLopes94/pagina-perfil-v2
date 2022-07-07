@@ -71,11 +71,22 @@
     text-align: center;
     min-width: 320px;
     position: relative;
-    background-color: #212b36;
     padding: 60px 0;
     flex-direction: column;
 }
 
+.container-skills{
+    background-color: #212b36;
+    border-radius: 65px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 16px 17px 50px 0px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 16px 17px 50px 0px rgba(0,0,0,0.82);
+    -moz-box-shadow: 16px 17px 50px 0px rgba(0,0,0,0.82);
+}
 .tooltip {
     background: #eee;
     padding: 3px;
@@ -102,10 +113,12 @@
 }
 
 .container-graficos {
-
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
+    
 }
 
 .tooltip:after {
@@ -125,9 +138,9 @@
 
 .graph {
     width: 300px;
-    height: 150px;
+    height: 160px;
     position: relative;
-    margin: auto;
+    margin-left: 70px;
     text-align: center;
     color: #fff;
     font-size: 22px;
@@ -273,3 +286,4 @@
         transform: rotate(180deg);
     }
 }
+
