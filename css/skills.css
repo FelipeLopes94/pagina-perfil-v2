@@ -320,6 +320,10 @@
         flex-direction: column;
     }
 
+    .container-skills{
+        width: 100%;
+    }
+    
     .graph{
         margin: 0;
     }

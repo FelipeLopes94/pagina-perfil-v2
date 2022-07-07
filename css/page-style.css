@@ -255,9 +255,12 @@ h1, h3{
     .textos-sobre{
         text-align: center;
         padding: 0;
-
+        width: 80%;
     }
 
+    .container-formacoes{
+        width: 90%;
+    }
     .container-form{
         width: 90%;
     }
