@@ -5,6 +5,7 @@
     line-height: 65px;
     text-align: center;
     font-size: 16px;
+    z-index: 999;
 }
 
 .nav div.logo {

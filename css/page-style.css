@@ -13,6 +13,7 @@ h1, h3{
     color: white;
 }
 
+/* SECAO FULLBANNER */
 
 .titulo-pagina{
     font-size: 62px;
@@ -49,6 +50,7 @@ h1, h3{
     width: auto;
 }
 
+/* SECAO SOBRE MIM */
 
 .sobre-mim{
     display: flex;
@@ -83,6 +85,45 @@ h1, h3{
 
 .foto-felipe{
     width: 250px;
-    border: 1px solid white;
+    border: 1px solid rgb(71, 71, 71);
     border-radius: 130px;
+    box-shadow: 16px 17px 50px 0px rgba(0,0,0,0.82);
+    -webkit-box-shadow: 16px 17px 50px 0px rgba(0,0,0,0.82);
+    -moz-box-shadow: 16px 17px 50px 0px rgba(0,0,0,0.82);
+
+}
+
+/* SECAO FORMACAO */
+
+.formacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-secao-formacao{
+    border-bottom: 3px solid;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.container-formacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.info-formacoes{
+    margin-top: 20px;
+}
+
+.titulo-formacao{
+    color: black;
+}
+.hr-custom{
+    width: 20%;
 }
