@@ -1,0 +1,87 @@
+/* Home section */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+h1, h3{
+    color: white;
+}
+
+
+.titulo-pagina{
+    font-size: 62px;
+    margin: 0;
+}
+
+.fullbanner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.999), rgba(0, 0, 0, 0.450)), url(../img/fullbanner.jpg);
+    background-position: center top;
+	background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.textos-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+    margin: 15px;
+    width: auto;
+}
+
+
+.sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.titulo-sobre{
+    border-bottom: 3px solid;
+    font-weight: bold;
+}
+
+.elementos-sobre{
+    display: flex;
+    align-items: center;
+}
+.textos-sobre{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-left: 90px;
+    text-align: left;
+}
+
+.div-foto-felipe{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-felipe{
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 130px;
+}
