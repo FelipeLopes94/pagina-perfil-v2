@@ -63,6 +63,32 @@
 
 }
 
+.seo {
+    color: #cf2f37 !important;
+
+}
+
+.seo:before {
+    border-color: #cf2f37 !important;
+    -ms-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    transform: rotate(180deg) !important;
+
+}
+
+.sql {
+    color: #cf8f2f !important;
+
+}
+
+.sql:before {
+    border-color: #cf8f2f !important;
+    -ms-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    transform: rotate(170deg) !important;
+
+}
+
 .section-skills {
     display: flex;
     justify-content: center;
